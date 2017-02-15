@@ -12,6 +12,7 @@
 		A91E17CD1E528A1800150612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91E17CB1E528A1800150612 /* Main.storyboard */; };
 		A91E17CF1E528A1800150612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91E17CE1E528A1800150612 /* Assets.xcassets */; };
 		A91E17D21E528A1800150612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91E17D01E528A1800150612 /* LaunchScreen.storyboard */; };
+		A91E17DA1E53D68E00150612 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91E17D91E53D68E00150612 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A91E17CE1E528A1800150612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A91E17D11E528A1800150612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A91E17D31E528A1800150612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91E17D91E53D68E00150612 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefinitionViewController.swift; path = ../DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A91E17C71E528A1800150612 /* AppDelegate.swift */,
 				A91E17C91E528A1800150612 /* ViewController.swift */,
+				A91E17D91E53D68E00150612 /* DefinitionViewController.swift */,
 				A91E17CB1E528A1800150612 /* Main.storyboard */,
 				A91E17CE1E528A1800150612 /* Assets.xcassets */,
 				A91E17D01E528A1800150612 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A91E17CA1E528A1800150612 /* ViewController.swift in Sources */,
+				A91E17DA1E53D68E00150612 /* DefinitionViewController.swift in Sources */,
 				A91E17C81E528A1800150612 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
